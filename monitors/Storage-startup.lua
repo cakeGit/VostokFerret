@@ -207,7 +207,7 @@ local function drawItemCountGraphMonitor()
 end
 
 local function redraw()
-    Monitor.clear()
+    -- Monitor.clear()
     Monitor.setCursorPos(1, 1)
     Style("black", "gray")
     Monitor.write("STORAGE - Central monitor " .. tablelength(itemsToDisplay) .. " Items, " .. itemsSumCount .. " Total, Next refresh: ")
