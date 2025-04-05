@@ -1,6 +1,7 @@
 require("src/Utils")
 
-print("Storage monitor starting up")
+print("Storage monitor errorring")
+error("tes")
 
 print("Searching for target monitor")
 Monitor = peripheral.wrap("monitor_9")
